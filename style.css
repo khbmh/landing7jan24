@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000cc;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff4e6;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  max-width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav {
+  height: 90px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+ul {
+  display: flex;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  /* margin-left: .5vw; */
+}
+
+li {
+  list-style: none;
+  /* padding: 0.5vw 1vw; */
+  margin-left: 4vw;
+}
+
+a {
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem;
+  max-width: 700px;
+  margin: 40px auto;
+  text-transform: capitalize;
+}
+
+p{
+  max-width: 800px;
+  margin: 0 auto;
+}
+button {
+  display: block;
+  margin: 40px auto;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 17px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: #fff;
+}
+img {
+  width: 65vw;
+  margin: 0 auto;
+  border-radius: 10px;
+}
