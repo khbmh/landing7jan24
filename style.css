@@ -52,7 +52,7 @@ a {
   text-decoration: none;
 
 }
-a:hover {
+ul a:hover {
   text-decoration: underline;
 }
 
@@ -84,6 +84,9 @@ button {
   border-radius: 5px;
   background-color: orange;
   color: #fff;
+}
+button a {
+color: white;
 }
 img {
   width: 65vw;
